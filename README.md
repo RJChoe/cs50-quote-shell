@@ -1,18 +1,21 @@
-# Quote Generator
+# CS50 Project: Quote Generator
 #### Video Demo:  <URL HERE>
-#### Description:
+#### Description: ####
 
-Quote Generator returns a random quote containing the specific word derived from user input.
+A CS50 project: a Python shell GUI that fetches and displays quotes containing a specific keyword from user input. Uses JSON data, ZenQuotes API, and NLTK for text processing.
 
 ## Features:
-Different quotes are generated from the same user input search word each time.
+- Interactive shell interface for entering keywords  
+- Different quotes returned for the same keyword each time  
+- Filters quotes using NLTK to validate English words  
+- Minimal API overhead with ZenQuotes JSON caching
 
 _Example:_<br>
-python project.py <br>
+python quote_shell.py <br>
 _Quote with exact word included:_ ***time*** <br>
 _("Don't spend time beating on a wall, hoping to transform it into a door.", 'Coco Chanel')_ <br>
 
-python project.py <br>
+python quote_shell.py <br>
 _Quote with exact word included:_ ***time*** <br>
 _('Mastery is not a function of genius or talent, it is a function of time and intense focus applied to a particular field of knowledge.', 'Robert Greene')_
 
