@@ -10,30 +10,45 @@ A CS50 project: a Python shell GUI that fetches and displays quotes containing a
 - Filters quotes using NLTK to validate English words  
 - Minimal API overhead with ZenQuotes JSON caching
 
-_Example:_<br>
-python quote_shell.py <br>
-_Quote with exact word included:_ ***time*** <br>
+_Example Usage:_<br>
+
+```bash
+python quote_shell.py
+```
+
+_Quote with exact word included:_ 
+
+***time*** <br>
 _("Don't spend time beating on a wall, hoping to transform it into a door.", 'Coco Chanel')_ <br>
 
-python quote_shell.py <br>
-_Quote with exact word included:_ ***time*** <br>
+```bash
+python quote_shell.py
+```
+
+_Quote with exact word included:_
+
+***time*** <br>
 _('Mastery is not a function of genius or talent, it is a function of time and intense focus applied to a particular field of knowledge.', 'Robert Greene')_
 
-Best words to use for a variety of quotes: man, love, past
+## Tips for Users
 
-Worst words/(categories): joy, death, (specific foods ex. coffee), (specific animals ex. penguin)
+- Best words for a variety of quotes: man, love, past
+
+- Worst words/(categories): joy, death, (specific foods ex. coffee), (specific animals ex. penguin)
 
 ## Directory Structure
-### `Project`
-- **`project/`**: Directory of Final Project for CS50P
+### `CS50-quote-shell`
+- **`quote_shell/`**: Directory of Final Project for CS50P
     - **`project_dev_py3.12.2/`**: venv folder
-    - `project.py`: Project Quote Generator main code
+    - `quote_shell.py`: Project Quote Generator main code
     - `README.md`: Description/instructions for Quote Generator project
     - `requirements.txt`: Quote Generator project dependencies list
-    - `test_project.py`: Tests for Quote Generator project
+    - `test_quote_shell.py`: Tests for Quote Generator project
+
 
 ## Design Decisions:
 <!-- if you debated certain design choices, explaining why you made them -->
+
 #### Virtual Environment
 Included virtual environment instructions for accessability in README.md
 
