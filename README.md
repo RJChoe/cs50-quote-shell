@@ -30,9 +30,11 @@ _Quote with exact word included:_
 ***time*** <br>
 _('Mastery is not a function of genius or talent, it is a function of time and intense focus applied to a particular field of knowledge.', 'Robert Greene')_
 
-Best words to use for a variety of quotes: man, love, past
+## Tips for Users
 
-Worst words/(categories): joy, death, (specific foods ex. coffee), (specific animals ex. penguin)
+- Best words for a variety of quotes: man, love, past
+
+- Worst words/(categories): joy, death, (specific foods ex. coffee), (specific animals ex. penguin)
 
 ## Directory Structure
 ### `Project`
